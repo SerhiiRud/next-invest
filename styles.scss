@@ -1,0 +1,145 @@
+@charset "UTF-8";
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 18px 375px 18px 375px;
+  outline: 2px dotted red;
+}
+.header-title {
+  margin-right: 222px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.44px;
+  color: #128c76;
+}
+.header-navigation {
+}
+.header-menu {
+  display: flex;
+  gap: 16px;
+  margin-right: 24px;
+}
+.header-menu-item {
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+.header-menu-link {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333;
+}
+
+.header-buttonset {
+  display: flex;
+  gap: 16px;
+}
+.login-button {
+  padding: 16px 40px 14px 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #128c76;
+  border: none;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  &:hover {
+    opacity: 50%;
+  }
+  &:focus {
+    opacity: 50%;
+  }
+}
+.register-button {
+  padding: 16px 40px 14px 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f56b8d;
+  border: none;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+  &:hover {
+    opacity: 50%;
+  }
+  &:focus {
+    opacity: 50%;
+  }
+}
+
+.test {
+  color: var(--Grey-1, #333);
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+}
