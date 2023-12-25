@@ -339,9 +339,9 @@ section {
 .infographics-section {
   padding-bottom: 0;
   background-color: #ecf4fd;
-  background-image: url(./images/svg/vector.svg), url(./images/svg/semi-circles.svg), url(./images/jpg/chart-line.png);
+  background-image: url(./images/svg/vector.svg), url(./images/svg/semi-circles.svg), url(./images/svg/dots.svg);
   background-repeat: no-repeat;
-  background-position: bottom left, 1700px 0px, 958px 210px;
+  background-position: bottom left, 1700px 0px, 1750px 350px;
 }
 
 .infographics-container {
@@ -372,7 +372,21 @@ section {
 }
 
 .infographics {
+  position: relative;
+  padding-left: 50px;
   width: 585px;
+}
+
+.sum-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.sum-scale {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 table {
@@ -384,4 +398,48 @@ td {
   height: 71px;
   table-layout: fixed;
   border: 1px solid #ececec;
+}
+
+.graph-image {
+  position: absolute;
+  left: 110px;
+  top: 50px;
+}
+
+.diamond-icon {
+  position: absolute;
+  left: 286px;
+  top: 75px;
+}
+
+.handle-icon {
+  position: absolute;
+  left: 287px;
+  top: 90px;
+}
+
+.caption {
+  position: absolute;
+  left: 250px;
+  top: 40px;
+  width: 83px;
+  height: 40px;
+  padding-top: 4px;
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.301px;
+  text-transform: capitalize;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #f56b8d;
+}
+
+.time-scale {
+  margin-left: 80px;
+  display: flex;
+  gap: 50px;
 }/*# sourceMappingURL=styles.css.map */

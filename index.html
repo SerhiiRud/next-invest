@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Josefin+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -200,35 +201,68 @@
           </p>
         </div>
         <div class="infographics">
-          <table>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+          <img
+            class="graph-image"
+            src="./images/jpg/chart-line.png"
+            alt="graph chart"
+          />
+          <svg class="diamond-icon" width="10" height="10">
+            <use href="./images/svg/symbol-defs.svg#icon-diamond"></use>
+          </svg>
+          <svg class="handle-icon" width="8" height="8">
+            <use href="./images/svg/symbol-defs.svg#icon-Handle"></use>
+          </svg>
+          <div class="caption">
+            Q2 2017<br />
+            $5,492,840
+          </div>
+          <div class="sum-wrapper">
+            <ul class="sum-scale list">
+              <li class="sum-value">$7M</li>
+              <li class="sum-value">$6M</li>
+              <li class="sum-value">$5M</li>
+              <li class="sum-value">$4M</li>
+              <li class="sum-value">$3M</li>
+              <li class="sum-value">$2M</li>
+              <li class="sum-value">$1M</li>
+            </ul>
+            <table>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ul class="time-scale list">
+            <li class="time-value">2015</li>
+            <li class="time-value">2016</li>
+            <li class="time-value">2017</li>
+            <li class="time-value">2018</li>
+            <li class="time-value">2019</li>
+            <li class="time-value">2020</li>
+          </ul>
         </div>
       </div>
     </section>
